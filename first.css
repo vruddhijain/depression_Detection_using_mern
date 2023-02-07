@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: rgb(226, 226, 226);
+  color:rgb(27, 25, 25);
+  font-family:  "Lucida console","Courier New", "monospace";
+  font-style: "italic";
+}
+
+nav{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  width: 230px;
+  background-color:rgb(228, 158, 103);
+  overflow: visible;
+  transition: 1s;
+}
+nav:hover{
+  width: 280px;
+  color: powderblue;
+  transition: 1s;
+}
+.logo{
+  text-align: center;
+  display: flex;
+  margin: 10px 0 0 10px;
+  padding-bottom: 3rem;
+}
+
+.logo img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.logo span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+a{
+  position: relative;
+  width: 280px;
+  font-size: 14px;
+  color: powderblue;
+  display: table;
+  padding: 12px;
+}
+nav .fas{
+  position: relative;
+  width: 70px;
+  height: 40px;
+  top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  color:white;
+  font-size: 20px;
+  position: relative;
+  top: 12px;
+  margin-left: 10px;
+}
+a:hover{
+  background: rgb(228, 150, 100);
+}
+
+.back{
+  position: absolute;
+  bottom: 0;
+}
+
+.container{
+  display: flex;
+}
+.main{
+  position: relative;
+  width: 100%;
+ 
+background-position: center;
+  background-repeat: no-repeat;
+    background-size: cover;
+padding-left:0px;
+  
+}
+.main-top{
+  /* display:inline-block; */
+  width: 100%;
+   text-align:left;
+   
+}
+h2{
+font-weight:bold;
+color:hotpink;
+font-style:italic;
+}
+h1{
+font-weight:bold;
+color:powderblue;
+font-style:oblique;
+}
+.it{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+ .t{
+    display: block;
+ }
+ .header {
+  padding: 1px;
+  text-align: center;
+  color:rgb(255, 220, 105);
+  font-size: 50px;
+}
+.im{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+
+}
+.vi{  
+    position: absolute;
+    right:0;
+    bottom:0; 
+    z-index: -1;
+    left:12px;
+    top:0px;
+  }
+.main-top, .out
+{
+    background-color: rgba(202, 134, 25, 0.25);
+    padding:0px; 
+    width:40%;
+    font-size: 20px;
+    border-radius:2px;
+    border:2px "solid" rgba(63, 61, 59, 0.949) ;
+    font-weight:30px;
+    text-align-last:"5px";
+    position:"absolute";
+    left:0px;
+    bottom:0;
+}
